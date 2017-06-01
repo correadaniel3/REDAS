@@ -1,0 +1,935 @@
+body, html{
+    height: 100%;
+}
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+@media screen and (max-width : 900px)
+{
+    h1{
+        font-family: Helvetica, Sans-Serif;
+        font-size: 40pt;
+        font-weight: bold;
+        color: #6D6F70;
+    }
+     header{
+        text-align: center;
+        padding: 5px 20px;
+    }
+    #escudo{
+        margin: 0 auto;
+        float: none;
+    }
+    .titulo{
+        text-align: center;
+        left: calc(36% - 237px);
+        margin: -15px;
+    }
+    #titulo1{
+        top: calc(50% - 140px);
+    }
+    #titulo2{
+        top: calc(50% - 110px);
+    }
+    #botones_header{
+        text-align: center;
+    }
+    #banner{
+        width: 100%;
+        height: 60px;
+        background-color: #6F9BBC;
+        background-image: url(../imagenes/textura.png);
+    }
+}
+
+@media screen and (min-width : 901px){
+    header{
+        text-align: center;
+        padding: 5px 20px;
+        height: 180px;
+        display: block;
+        position: relative;
+    }
+    h1{
+        font-family: Helvetica, Sans-Serif;
+        font-size: 50pt;
+        font-weight: bold;
+        color: #6D6F70;
+    }
+    #escudo{
+        float: left;
+        margin: 0 auto;
+    }
+    #botones_header{
+        float: right;
+        position: relative;
+    }
+    .titulo{
+        position: absolute;
+        text-align: center;
+        left: calc(45% - 237px);
+    }
+     #titulo1{
+        top: calc(70% - 140px);
+    }
+    #titulo2{
+        top: calc(60% - 110px);
+    }
+    #banner{
+        width: 100%;
+        height: 60px;
+        background-color: #6F9BBC;
+        background-image: url(../imagenes/textura.png);
+    }
+}
+
+@media screen and (max-width : 504px){
+    .grid li {
+        text-align: -webkit-center;
+        /*width: auto;*/
+        min-width: auto;
+    }
+    .grid li:not(:first-of-type){
+        padding-top: 110px;
+    }
+    .grid figure {
+        float: right;
+        padding: 88px;
+    }
+    .grid .figura_respuestas{
+        float: right;
+        padding: 50px;
+    }
+    div.cuerpo_mujer, div.cuerpo_hombre {
+        width: 100%;
+    }
+}
+@media screen and (min-width : 505px){
+    .grid li {
+        text-align: -webkit-right;
+        width: auto;
+    }
+    .grid li:nth-child(n+3){
+        padding-top: 0px;
+    }
+    
+    .grid figure {
+        float: right;
+        padding: 88px;
+    }
+    .grid .figura_respuestas{
+        float: right;
+        padding: 50px;
+    }
+}
+
+
+.circulo{
+    width: 176px;
+}
+.acciones{
+    padding-left: 10px;
+    width: 65px;
+}
+footer{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    font-size: 10pt;
+    font-family: Helvetica, sans-serif;
+    color: #6D6F70;
+    /* position: absolute; */
+    bottom: 0;
+}
+.acciones:hover{
+    cursor: pointer;
+}
+.cs-style-1 figcaption {
+    height: 176px;
+    width: 176px;
+    opacity:inherit;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+.cs-style-1 figcaption:hover {
+    transform: scale(1);
+}
+
+.cs-style-1 .figcaption_respuestas{
+    height: 70px;
+    width: 100px;
+    opacity:inherit;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    cursor: pointer;
+}
+
+.grid cs-style-1{
+    padding-left: 40px;
+}
+
+.cs-style-1 figcaption #title_produccion_secrecion{
+    position: relative;
+    margin-top: 5%;
+    font-size: medium;
+}
+.cs-style-1 figcaption #title_papel_adaptacion{
+    position: relative;
+    margin-top: 13%;
+    font-size: medium;
+}
+.cs-style-1 figcaption #title_causas{
+    position: relative;
+    margin-top: 30%;
+    font-size: medium;
+}
+.cs-style-1 figcaption #title_epidemiologia{
+    position: relative;
+    margin-top: 27%;
+    font-size: medium;
+}
+
+#intro{
+    color: #6D6F70;
+    margin: 20px 80px 20px 80px;
+    text-align: justify;
+}
+
+.acreditados{   display: flex;}
+.creditos_left, .creditos_right{        margin: 0 auto;}
+.creditos_left ul, .creditos_right ul{padding-left: 5px;  list-style: none;}
+.imagen_creditos{       text-align: center;}
+
+.botones_causas{  
+    float: left;
+    width: 300px;
+    padding: 5px;
+    border-right-color: #0084CB;
+}
+.textos_botones{
+    width: 930px;
+    float: left;
+    border: #0084CB 2pt dashed;
+    border-radius: 12px;
+}
+#boton1,#boton2{
+    padding: 5px;
+    border-radius: 5px;
+}
+#boton1:hover, #boton2:hover{  
+    background-color: #E6E6E6;
+    color: black;
+    cursor: pointer;
+}
+.boton_activo{  
+    background-color: #0084CB;
+    color: white;
+}
+#text_boton1, #text_boton2{ padding-left: 10px;}
+#imagen_causas{ text-align: center;}
+#imagen_causas img{ width: 55%;}
+#dialog6 img{   width: 100%;}
+/*#ui-id-12{  text-align: center;}*/
+
+.botones_preguntas{  
+    float: left;
+    width: 300px;
+    padding: 5px;
+    border-right-color: #0084CB;
+}
+
+.botones_preguntas li{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.textos_preguntas{
+    width: 930px;
+    float: left;
+    border: #0084CB 2pt dashed;
+    border-radius: 12px;
+}
+#pregunta1, #pregunta2, #pregunta3, #pregunta4{
+    padding: 5px;
+    border-radius: 5px;
+}
+.botones_preguntas li:hover{  
+    background-color: #E6E6E6;
+    color: black;
+    cursor: pointer;
+}
+.pregunta_activa{  
+    background-color: #0084CB;
+    color: white;
+}
+#text_pregunta1, #text_pregunta2, #text_pregunta3, #text_pregunta4{ padding-left: 10px;}
+.opc_respuestas{
+    padding-left: 20%;
+    float: left;
+}
+.opc_respuestas2{
+    padding-left: 5%;
+    float: left;
+}
+.opc_respuestas2 ul{    margin: 0;}
+.respuestas{
+    float: left;
+    width: 80%;
+}
+.respuestas img{    
+    width: 35%;
+    float: left;
+}
+.respuestas #text_respuesta1{
+    float: left;
+    width: 65%;
+    padding-left: 10px;
+}
+.botones_preguntas li {
+    list-style-type: none;
+}
+.botones_casos{
+    width: 100%;
+    text-align: center;
+}
+#caso1, #caso2{
+    width: 50%;
+    float: left;
+}
+/*#ui-id-16{  padding: 0;}*/
+#pit_tab_1, #pit_tab_2{ overflow: auto;}
+#pit_tab_3, #pit_tab_4, #pit_tab_5, #pit_tab_6, #pit_tab_7, #pit_tab_8, #pit_tab_9, #pit_tab_10, #pit_tab_11{
+    width: 80%;
+    border: #0084CB 2pt dashed;
+    border-radius: 12px;
+}
+
+.pit_vertical_tabs{ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-style: none !important;
+}
+
+@media screen and (max-width : 1000px)
+{
+    .pit_vertical_tabs{ 
+        width: 100%;
+        border-style: none !important;
+    }
+}
+
+.pit_vertical_tabs .ui-tabs-nav{
+    background: none;
+    border-style: none;
+}
+.pit_vertical_tabs .ui-tabs-nav li{
+    border-radius: 17px;
+    border-style: none;
+}
+.pit_vertical_tabs .ui-tabs-nav li a{
+    color: black;
+    font-size: 15px;
+}
+.pit_vertical_tabs .ui-tabs-nav li a:hover{    
+    background-color: #E6E6E6;
+    border-radius: 17px;
+}
+.pit_vertical_tabs .ui-tabs-nav .ui-state-active a:hover{  
+    color: #0084CB;
+}
+.pit_vertical_tabs .ui-tabs-nav .ui-state-active a{    
+    background-color: #0084CB;
+    color: white;
+    border-radius: 17px;
+}
+div.pit_tabs > ul.ui-tabs-nav{
+    background: #6F9BBC;
+}
+
+
+
+#ui-id-9, #ui-id-11, #ui-id-13, #ui-id-15, #ui-id-17{
+    border: none;
+    font-size: 19px;
+    background: #eeeeee;
+    font-weight: normal;
+    outline: none;
+}
+#ui-id-10, #ui-id-12, #ui-id-14, #ui-id-16, #ui-id-18{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px dashed;
+    border-radius: 10px;
+}
+#ui-id-9{    color: #ea965c;}
+#ui-id-11{    color: #678fba;}
+#ui-id-13{    color: #9bcd85;}
+#ui-id-15{    color: #e3bd56;}
+#ui-id-17{    color: #a960d8;}
+#ui-id-10{    border-color: #ea965c;}
+#ui-id-12{    border-color: #678fba;}
+#ui-id-14{    border-color: #9bcd85;}
+#ui-id-16{    border-color: #e3bd56;}
+#ui-id-18{    border-color: #a960d8;}
+.pit_acordeon h3.ui-accordion-header-active.ui-state-active{
+    border: 1px solid !important;
+    border-radius: 10px;
+}
+
+.conf_dopamina {
+    position: relative;
+    width: 95%;
+    margin: auto;
+}
+#imagen_dopamina {
+    position: relative;
+    width: 100%;
+}
+.conf_dopamina div, .cuerpo_mujer div, .cuerpo_hombre div, .mapa div{
+    position: absolute;
+    display: block;
+    background-color: red;
+    border-radius: 10px;
+    border-color: black;
+    border-style: double;
+    padding: 3px;
+    cursor: pointer;
+}
+.info_dopamina {
+    top: 12%;
+    left: 20%;
+    z-index: 3;
+}
+.info_prolactina {
+    top: 82%;
+    left: 84%;
+    z-index: 3;
+}
+.info_estrogenos {
+    top: 83%;
+    left: 17%;
+    z-index: 3;
+}
+.info_trh {
+    top: 10%;
+    left: 90%;
+    z-index: 3;
+}
+#text_dopamina,#text_prolactina,#text_estrogenos,#text_trh{
+    position: absolute;
+    z-index: 3;
+    border: 1px bold;
+    background: white;
+}
+#text_dopamina{
+    top: 14%;
+    left: 20%;
+}
+#text_prolactina{
+    top: 38%;
+    left: 75%;
+}
+#text_estrogenos{
+    top: 65%;
+    left: 1%;
+    width: 50%;
+}
+#text_trh{
+    top: 13%;
+    left: 50%;
+}
+.grid li figure p{
+    position: absolute;
+    left: 0px;
+    top: 176px;
+    text-align: center;
+    cursor: default;
+    color: black;
+}
+#imagen_gestacion{  width: 100%;}
+.imagenes_cuerpos{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.cuerpo_mujer, .cuerpo_hombre{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.cuerpo_mujer img, .cuerpo_hombre img{
+    width: 100%;
+}
+
+#text_hipofisario, #text_galactorrea, #text_osteoporosis, #text_Hipogonadismo,#text_hipofisario2, #text_galactorrea2, #text_osteoporosis2, #text_Hipogonadismo2{
+    position: absolute;
+    z-index: 3;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+}
+#text_hipofisario, #text_galactorrea, #text_osteoporosis, #text_Hipogonadismo, #text_hipofisario2, #text_galactorrea2, #text_osteoporosis2, #text_Hipogonadismo2 {
+        position: initial;
+        width: auto;
+}
+.info_hipofisario{
+    top: 13%;
+    left: 49%;
+    z-index: 3;
+}
+.info_galactorrea{
+    top: 53%;
+    left: 42%;
+    z-index: 3;
+}
+.info_osteoporosis{
+    top: 84%;
+    left: 35%;
+    z-index: 3;
+}
+.info_Hipogonadismo{
+    top: 15%;
+    left: 47%;
+    z-index: 3;
+}
+#text_hipofisario{
+    top: 1%;
+    width: 100%;
+}
+#text_galactorrea{
+    top: 46%;
+    width: 100%;
+}
+#text_osteoporosis{
+    top: 70%;
+    width: 100%;
+}
+#text_Hipogonadismo{
+    top: 28%;
+    /*left: 59%;*/
+    width: 100%;
+}
+.info_hipofisario2{
+    top: 10%;
+    left: 44.4%;
+    z-index: 3;
+}
+.info_galactorrea2{
+    top: 28%;
+    left: 43.5%;
+    z-index: 3;
+}
+.info_osteoporosis2{
+    top: 44%;
+    left: 39.5%;
+    z-index: 3;
+}
+.info_Hipogonadismo2{
+    top: 10%;
+    left: 49.9%;
+    z-index: 3;
+}
+#text_hipofisario2{
+    top: 1%;
+    width: 100%;
+}
+#text_galactorrea2{
+    top: 26%;
+    
+    width: 100%;
+}
+#text_osteoporosis2{
+    top: 42%;
+    
+    width: 100%;
+}
+#text_Hipogonadismo2{
+    top: 28%;
+    
+    width: 100%;
+}
+.text_seccion5{
+    padding: 10px;
+}
+.ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active a{
+    color: #FAAC58;
+    font-weight: normal;
+}
+.mapa{
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.mapa img{
+    width: 100%;
+}
+div .info_macroprolactinemia{
+    top: 46.5%;
+    left: 2.7%;
+    width: 24.6%;
+    height:6%;
+    z-index: 3;
+    background-color:transparent;
+    border-color: transparent;
+}
+div .info_macroprolactinemia:hover{
+    background-color: rgba(153, 202, 132, 0.5);
+}
+div .info_funcional{
+    top: 46.5%;
+    left: 73.9%;
+     width: 23.1%;
+    height:9.1%;
+    z-index: 3;
+    background-color:transparent;
+    border-color: transparent;
+}
+div .info_funcional:hover{
+    background-color: rgba(239, 237, 153, 0.5);
+}
+div .info_organica{
+    top: 46.5%;
+    left: 38.2%;
+    width: 23.1%;
+    height:9.1%;
+    z-index: 3;
+    background-color:transparent;
+    border-color: transparent;
+}
+div .info_organica:hover{
+    background-color: rgba(234, 149, 93, 0.5);
+}
+div .info_medicamentos{
+    top: 87.2%;
+    left: 48%;
+    width: 17.6%;
+    height: 3%;
+    z-index: 3;
+    background-color: transparent;
+    border-color: transparent;
+}
+div .info_medicamentos:hover{
+    background-color: rgba(144, 144, 144, 0.34);
+}
+div .info_normal{
+    top: 73.9%;
+    left: 4.6%;
+    width: 22.1%;
+    height:15%;
+    z-index: 3;
+    background-color: transparent;
+    border-color: transparent;
+} 
+div .info_normal:hover{
+    background-color: rgba(144, 144, 144, 0.34);
+}
+
+div .info_tratamiento{
+    top: 73.3%;
+    left: 73.39%;
+    width: 14.6%;
+    height:4.8%;
+    z-index: 3;
+    background-color: transparent;
+    border-color: transparent;
+}
+div .info_tratamiento:hover{
+    background-color: rgba(144, 144, 144, 0.34);
+}
+div .info_agonistas{
+    top: 10.6%;
+    left: 40%;
+    width: 19.8%;
+    height:9%;
+    z-index: 3;
+    background-color: transparent;
+    border-color: transparent;
+}
+div .info_agonistas:hover{
+    background-color: rgba(144, 144, 144, 0.34);
+}
+div .info_agonistas2{
+    top: 46.2%;
+    left: 5.1%;
+    width: 19.8%;
+    height:7.7%;
+    z-index: 3;
+    background-color: transparent;
+    border-color: transparent;
+}
+div .info_agonistas2:hover{
+    background-color: rgba(144, 144, 144, 0.34);
+}
+div .info_lesion{
+    top: 92.6%;
+    left: 75.8%;
+    width: 14.6%;
+    height:5%;
+    z-index: 3;
+    background-color: transparent;
+    border-color: transparent;
+}
+div .info_lesion:hover{
+    background-color: rgba(144, 144, 144, 0.34);
+}
+#imagen_medicamentos, #imagen_normal{width: 90%;}
+
+img.volver{
+    cursor: pointer;
+}
+
+#pit_acordeon_1>div:not(.esteno){
+    text-align: center;
+}
+div .icon{
+    background-color: transparent;
+    border-color: transparent;
+}
+div .icon_macroprolactinemia{
+    top: 50.3%;
+    left: 14%;
+    z-index: 3;
+}
+div .icon_organica{
+    top: 53.5%;
+    left: 49%;
+    z-index: 3;
+}
+div .icon_funcional{
+    top: 53.5%;
+    left: 84%;
+    z-index: 3;
+}
+div .icon_normal{
+    top: 87%;
+    left: 15%;
+    z-index: 3;
+}
+div .icon_lesion{
+    top: 95%;
+    left: 81%;
+    z-index: 3;
+}
+div .icon_tratamiento{
+    top: 76.5%;
+    left: 79%;
+    z-index: 3;
+}
+div .icon_agonistas{
+    top: 20%;
+    left: 50%;
+    z-index: 3;
+}
+div .icon_agonistas2{
+    top: 53.3%;
+    left: 13.3%;
+    z-index: 3;
+}
+div .icon_medicamentos{
+    top: 88%;
+    left: 55%;
+    z-index: 3;
+}
+div .atras{
+    background-color: transparent;
+    border-color: transparent;
+}
+div #volver1{
+    top: 1%;
+    left: 48.6%;
+    width: 4%;
+    height: 4%;
+    z-index: 3;
+}
+div #volver2{
+    top: 1%;
+    left: 48.5%;
+    width: 4%;
+    height: 4%;
+    z-index: 3;
+}
+div #volver3{
+    top: -1%;
+    left: 48%;
+    width: 3.5%;
+    height: 3.5%;
+    z-index: 3;
+}
+div.cuerpo_mujer, div.cuerpo_hombre{
+    width: 100%;
+}
+div.cuerpo_hombre{
+    margin-top: 12%;
+}
+#informa_mujer, #informa_hombre{
+    display: initial;
+    width: 100%;
+    position: relative;
+    float: right;
+}
+
+@media screen and (max-width : 620px){
+    div .info_macroprolactinemia{
+        top:45.6%;
+    }
+    div .info_organica{
+        top:45.3%;
+    }
+    div .info_funcional{
+        top:45.3%;
+    }
+    div .info_medicamentos{
+        top:84.3%;
+    }
+    div .info_normal{
+        top:72.3%;
+    }
+    div .info_lesion{
+        top:90%;
+    }
+    h1{
+        font-size: 25pt;
+    }
+    #intro{
+        margin: 20px;
+    }
+   
+        
+}
+.ui-dialog .ui-dialog-content{
+    height: auto !important;
+    max-height: none !important;
+}
+@media screen and (max-width : 800px){
+     #imagen_causas img{
+        width: 100%;
+    }
+    .textos_botones{
+        width: 100%;
+    }
+    .ui-accordion .ui-accordion-content {
+        padding: 1em 0em 3.2em 0 !important;
+    }
+    .ui-tabs .ui-tabs-panel{
+        padding: 1em 0.5em !important;
+    }
+    #ui-id-18{
+        text-align: left;
+    }
+    #pit_tab_3, #pit_tab_4, #pit_tab_5, #pit_tab_6, 
+    #pit_tab_7, #pit_tab_8, #pit_tab_9, #pit_tab_10, 
+    #pit_tab_11{
+        width: 100%;
+        text-align: left;
+        overflow: auto;
+    }
+    .respuestas{
+        width: 100%;
+    }
+    .respuestas img{width: 100%;} 
+    div.respuestas div{width: 100% !important;}
+    .grid li{
+        width: auto;
+    }
+    .fa{
+        font-size: 80% !important;
+    }
+    #text_dopamina, #text_prolactina, #text_estrogenos, #text_trh{
+        top: auto;
+        left: auto;
+    }
+    #boton1:hover, #boton2:hover {
+        background-color: #0084CB;
+        color: white;
+        cursor: pointer;
+    }
+    div #volver1{
+        left: 47.6%;
+        width: 6%;
+    }
+    div #volver2{
+        left: 47.5%;
+        width: 6%;
+    }
+    div #volver3{
+        left: 47%;
+        width: 5.5%;
+    }
+    
+    #text_hipofisario, #text_galactorrea, #text_osteoporosis, #text_Hipogonadismo, #text_hipofisario2, #text_galactorrea2, #text_osteoporosis2, #text_Hipogonadismo2 {
+        position: initial;
+        width: auto;
+    }
+    .figura_respuestas{
+        padding: 50px 50px 22px 50px !important;
+    }
+    #pit_tab_3, #pit_tab_4, #pit_tab_5, #pit_tab_6, #pit_tab_7, #pit_tab_8, #pit_tab_9, #pit_tab_10, #pit_tab_11{
+        border: #0084CB 1px dashed;
+        border-top: 0px;
+        border-radius: 0 0 12px 12px;
+    }
+    div #volver3{
+        left: 27%;
+        width: 8.5%;
+    }
+    div #volver1{
+        left: 28%;
+        width: 8%;
+        top: 2%;
+    }
+    div #volver2{
+        left: 30%;
+        width: 8%;
+        top: 3%;
+    }
+    #text_estrogenos{
+        width: 100%;
+    }
+    p.opc_respuestas{
+        padding-left: 0px;
+    }
+
+    p.opc_respuestas:last-of-type{
+        padding-left: 20px;
+    }
+    .grid{
+        padding: unset;
+    }
+    .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+        padding-bottom: 0px !important;
+    }
+    video{
+        width: 100%;
+    }
+    .ui-dialog .ui-dialog-content{
+        height: fit-content !important;
+    }
+    div#dialog3 {
+        height: 550px !important;
+    }
+    
+}
+
+.ui-button-text:focus{
+    outline: 0;
+}
+.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close:focus{
+    outline: 0;
+}
+.ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active a {
+    font-weight: inherit;
+}

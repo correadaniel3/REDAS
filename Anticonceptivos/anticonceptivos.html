@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+	<script src="jquery-ui/jquery-ui.js"></script>
+<!--	<link rel="stylesheet" href="jquery-ui/jquery-ui.structure.css">-->
+	<title>Anticonceptivos</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script type="text/javascript" src="js/custom.js"></script>
+	<!--<link rel="stylesheet" href="jquery_ui_pit/jquery-ui.min.css">-->
+    <!--<script type="text/javascript" src="jquery_ui_pit/external/jquery/jquery.js"></script>
+    <script type="text/javascript" src="jquery_ui_pit/jquery-ui.min.js"></script>-->
+	<script type="text/javascript" src="jquery_ui_pit/custom_pit.js"></script>
+	<link rel="stylesheet" href="jquery_ui_pit/custom_pit.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header>
+		<div class="logo-udea">
+			<img src="images/Home_estilos-03.png" alt="">
+		</div>
+		<nav class="pit-nav">
+			<ul>
+				<li><a href="#" id="creditos">Créditos</a></li>
+				<li><a href="#" id="bibliografia">Bibliografía</a></li>
+				<li><a href="#" id="informacion">Información</a></li>
+			</ul>
+		</nav>
+		<nav class="mobile">
+		  <div class="pit-hamburguer">
+		  	<span></span>
+				<span></span>
+				<span></span>
+		  </div>
+		  <div class="pit-menu-mobile">
+				<ul>
+			    <li id="creditos-mobile"><a href="#" >Créditos</a></li>
+			    <li id="bibliografia-mobile"><a  href="#" >Bibliografía</a></li>
+			    <li id="informacion-mobile"><a  href="#" >Información</a></li>
+				</ul>
+		  </div>
+		</nav>
+		<div class="pit-header-text">
+			<h1>Titulo por definir</h1>
+		</div>
+	</header>
+
+	<div class="pit-body">
+	<div id="inicial">
+        <div id="text_intro">
+            <p>El propósito de este material es proveer la información general sobre la anticoncepción y la efectividad de los métodos.</p>
+        </div>
+            <div class="pit-thumbnails-group">
+                <div id="eval1" class="pit-thumbnail">
+                    <img src="http://fakeimg.pl/190x235/">
+                    <div class="pit-thumbnail-descripcion">
+                        <h3>Evaluación previa</h3>
+                    </div>
+                </div>
+                <div id="conceptos" class="pit-thumbnail">
+                    <img src="http://fakeimg.pl/190x235/">
+                    <div class="pit-thumbnail-descripcion">
+                        <h3>Conceptos básicos y efectividad de los métodos</h3>
+                    </div>
+                </div>
+                <div id="eval2" class="pit-thumbnail">
+                   <img src="http://fakeimg.pl/190x235/">
+                    <div class="pit-thumbnail-descripcion">
+                        <h3>Autoevaluación</h3>
+                    </div>
+                </div>
+                <div id="resultados" class="pit-thumbnail">
+                   <img src="http://fakeimg.pl/190x235/">
+                    <div class="pit-thumbnail-descripcion">
+                        <h3>Ver resultados</h3>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div id="eval1_content" class="contenidos text_intro">
+          <div class="cuestionario_content">
+               <p>Antes de abordar este material complete el siguiente cuestionario el cual que tiene la intención de evaluar su conocimiento en el tema.</p>
+               <p><strong>Conocimiento sobre planificación familiar o cómo usted se “cuida” para no quedar embarazada:</strong></p>
+                <div class="autoevaluacion" id="cuestionario1">
+                   <form id="cuestionario1" class="cuestionario" action="#">
+                   </form>
+                </div>
+            </div>
+        </div>
+        <div id="conceptos_content" class="contenidos text_intro">
+             <button id="conceptos_volver" class="volver"><i class="material-icons">home</i> Inicio</button>
+
+        </div>
+        <div id="eval2_content" class="contenidos text_intro">
+          <div class="cuestionario_content" id="survey">
+               <p><strong>Conocimiento sobre planificación familiar o cómo usted se “cuida” para no quedar embarazada:</strong></p>
+                <div class="autoevaluacion" id="cuestionario2">
+                   <form id="cuestionario2" class="cuestionario" action="">
+                   </form>
+                </div>
+            </div>
+           
+        </div>
+        <div id="resultados_content" class="contenidos text_intro">
+             <div class="cuestionario_content">
+                   <div class="div_resultados">
+                      <h2>Evaluación previa</h2>
+                       <ul id="res1">
+
+                        </ul>
+                   </div>
+                   <div id="res_autoevaluacion" class="div_resultados">
+                      <h2>Autoevaluación</h2>
+                       <ul id="res2">
+
+                        </ul>
+                   </div>
+                    
+                </div>
+                <button class='boton_guardar' id='btn_comenzar' type='button'>Comenzar de nuevo</button>
+        </div>
+   
+    </div>
+
+
+
+	<div class="pit-footer-creditos">
+		<h3>Programa Integración de Tecnologías a la Docencia</h3>
+		<h3>Vicerrectoría de Docencia</h3>
+		<h3>2016</h3>
+	</div>
+	<div class="dialog" id="dialog-1" title="Bibliografia">
+				<ul>
+                   <!--
+                   
+                       FALTAN
+                   
+                   -->
+                    <!--<li>Badie, B., & Hermet, G. (1993). Política comparada. México:  Fondo de Cultura Económica. </li>
+                    <li>Castiglioni, F. (1997). La política comparada. Pinto, Julio-Comp.-Introducción a la Ciencia Política.. Buenos Aires. Argentina: EUDEBA</li>
+                    <li>Dalton, R.J. (2001). Política comparada: perspectivas microconductistas. En: Nuevo Manual de Ciencia Política. Madrid: Goodin & Klingemann. </li>
+                    <li>Dalton, R. J. (2001). Política comparada: Perspectivas microconductistas. En: Nuevo manual de ciencia política. (pp. 485-508).Madrid: Ediciones Istmo.</li>
+                    <li>Landman, T. (2011). Política comparada. Una introducción a su objeto y métodos de investigación. Madrid: Alianza Editorial. </li>
+                    <li>Leyva, S., & Ramírez, M. F. (2015). La Ciencia Política en Colombia: Una disciplina en continua expansión. Revista de ciencia política (Santiago), 35(1), 71-94.</li>
+                    <li>Lucca, J. B. (2014). La política comparada en Argentina, Brasil, Colombia y México. Revista Uruguaya de Ciencia Política, 23(1), 101-118</li>
+                    <li>Mair, P. (2001). Política comparada: Una visión general. En: Nuevo Manual de Ciencia Política. (pp. 447-484). Madrid: Ediciones Itsmo</li>
+                    <li>Morlino, L. (2010). Introducción a la investigación comparada. Alianza Editorial.</li>
+                    <li>Munck, G. L. (2007). Agendas y estrategias de investigación en el estudio de la política latinoamericana. Revista de ciencia política (Santiago), 27(1), 3-21.</li>
+                    <li>Nohlen, D. (2006). Ciencia Política en América Latina. En: Dieter Nohlen (Eds.),  Diccionario de Ciencia Política. Ciudad de México: Porrúa.</li>
+                    <li>Nohlen, D. (2006). La ciencia política en América Latina. En: Dieter Nohlen(Eds.),  Diccionario de Ciencia Política. Ciudad de México: Porrúa.</li>
+                    <li>Sartori, G., & Morlino, L. (Eds.). (1994). La comparación en las ciencias sociales. Madrid: Alianza Editorial.</li>
+                    <li>Schedler, A. (2004). La relevancia pública de la política comparada. Postdata, (10), 341-349.</li>
+                    <li>Ocampo, M. (2010). Comparar es cuestión de método: Enseñanza y producción de conocimiento comparado en la academia colombiana. Análisis Político, 23(68), 43-61. Recuperado de: <a href="http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S012147052010000100003&lng=en&tlng=es">http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S012147052010000100003&lng=en&tlng=es</a> </li>
+                    <li>Panebianco, A. (1994). Comparación y explicación. En: En G. Sartori, L. M (Eds.), La comparación en las ciencias sociales (pp. 81-104).  Madrid: Alianza Editorial.</li>
+                    <li>Ramos, L. (junio 2012). Método Comparado: Precisiones y características.  En: 6° Congreso Latinoamericano de Ciencia Política  . Congreso llevado a cabo en de Quito,  Ecuador.</li>-->
+				</ul>
+	</div>
+	<div class="dialog" id="dialog-2" title="Créditos">
+			<p>Esta obra esta licenciada bajo Creative Commons Atribución – No comercial: Esta licencia permite a otros distribuir, remezclar, retocar, y crear a partir de tu obra de manera no comercial y, a pesar de que sus nuevas obras deben siempre mencionarte y mantenerse sin fines comerciales, no están obligados a licenciar sus obras derivadas bajo las mismas condiciones.</p>
+			<div class="acreditados">
+				<div class="creditos_left">
+					<ul>
+						<li><strong>Experto temático</strong><br>Didiher Rojas</li><br>
+						<li><strong>Asesora pedagógica</strong><br>Ángela Valderrama Muñoz</li><br>
+						<li><strong>Producción multimedial</strong><br>David Castaño Luján</li>
+					</ul>
+				</div>
+				<div class="creditos_right">
+					<ul>
+						<li><strong>Edición animacion</strong><br>Oscar Rojo Gaviria</li><br>
+							<li><strong>Diseño gráfico</strong><br>Luisa Charry</li><br>
+							<li><strong>Corrección de estilo</strong><br>Laura Bedoya Garcés</li><br>
+							<li><strong>Integración de contenidos</strong><br>Daniel Correa Arango</li>
+					</ul>
+				</div>
+			</div>
+			<div class="imagen_creditos">
+				<img class="commons" src="images/commons.png" alt="Creative Commons">
+			</div>
+			<div class="footer_creditos">
+				<p style="text-align:center;">
+				<strong>Coordinadora</strong><br>Donna Zapata Zapata<br>Programa Integración de Tecnologías a la Docencia <br>Vicerrectoría de Docencia<br>Medellín-Colombia
+				<br>Universidad de Antioquia<br>2016</p>
+			</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+@media only screen and (max-width: 800px) {
+	.pit_imagen{
+		width:100%;
+	}
+}
+
+.no_etiqueta {
+    list-style:none;
+}
+
+/*.pit_tabs img, #pit_acordeon_2 img{
+    width: 100%;
+}*/
+/*
+#pit_acordeon_2 span.pit_icono img{
+    width: auto;
+}
+*/
+

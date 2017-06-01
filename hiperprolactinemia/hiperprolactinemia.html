@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		
+    <title>Hiperprolactinemia</title> 
+		
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <!--<script src="js/modernizr.custom.js"></script>-->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="jquery_ui_pit/jquery-ui.min.css">
+    <script type="text/javascript" src="jquery_ui_pit/external/jquery/jquery.js"></script>
+    <script type="text/javascript" src="jquery_ui_pit/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="jquery_ui_pit/custom_pit.js"></script>
+    <link rel="stylesheet" type="text/css" href="jquery_ui_pit/custom_pit.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <img src="imagenes/escudo.png" id="escudo">
+      <div class="titulo" id="titulo1"><h1>Hiperprolactinemia</h1></div>
+      <div id="botones_header">
+        <img class="acciones" id="bibliografia" src="imagenes/icono_01.png">
+        <img class="acciones" id="creditos" src="imagenes/icono_02.png">
+        <img class="acciones" id="home" src="imagenes/icono_03.png">
+      </div>
+    </header>
+    <div id="banner"></div>
+    <div id="intro">
+      <p>La hiperprolactinemia es un trastorno endocrino común al cual el médico de atención primaria se enfrenta en su práctica clínica y hace parte de los diagnósticos  diferenciales de motivos de consulta frecuentes,  especialmente en la población femenina (alteraciones del ciclo menstrual, infertilidad y  galactorrea).</p>
+      <p>El objetivo de este material es servir como guía para el enfoque, en el ámbito de la atención primaria, para de aquellos pacientes con una posible hiperprolactinemia. Para ello se presentan las  siguientes secciones:</p>
+      <div class="pit_acordeon" id="pit_acordeon_1">
+        <h3 class="pausar">Sección 1: Generalidades.</h3>
+        <div>
+          <p>En esta sección se abordarán aspectos generales acerca de la estructura, producción y liberación de la prolactina. Su papel fisiológico más importante en la adaptación materna para la gestación  y datos de la epidemiología sobre la hiperprolactinemia y los prolactinomas.</p>
+          <div class="container demo-1">
+            <ul class="grid cs-style-1">
+              <li class="activo produccion_secrecion">
+                <figure>
+                  <figcaption>
+                    <img id="img_produccion_secrecion" src="imagenes/seccion1/001_boton.png">
+                  </figcaption>
+                  <p>Principales factores implicados en la producción y secreción de la prolactina.</p>
+                </figure>
+              </li>
+              <li class="activo papel_adaptacion">
+                <figure>
+                  <figcaption>
+                    <img id="img_papel_adaptacion" src="imagenes/seccion1/002_boton.png">
+                  </figcaption>
+                  <p>Papel de la prolactina en la adaptación materna a la gestación.</p>
+                </figure>
+              </li>
+              <li class="activo causas">
+                <figure>
+                  <figcaption>
+                    <img id="img_causasl" src="imagenes/seccion1/003_boton.png">
+                  </figcaption>
+                  <p>Causas de la Hiperprolactinemia.</p>
+                </figure>
+              </li>
+              <li class="activo epidemiologia">
+                <figure>
+                  <figcaption>
+                    <img id="img_epidemiologia" src="imagenes/seccion1/004_boton.png">
+                  </figcaption>
+                  <p>Epidemiología de la Hiperprolactinemia.</p>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <h3 class="pausar">Sección 2: Presentación clínica.</h3>
+        <div>
+          <p>En esta sección se describirán las manifestaciones clínicas más frecuentes de la hiperprolactinemia, tanto en hombres como en mujeres.</p>
+          <div class="imagenes_cuerpos">
+            <div class="cuerpo_mujer">
+              <img src="imagenes/seccion2/seccion2_mujer-completa.png">
+              <div class="info_hipofisario"></div>
+             
+              <div class="info_galactorrea"></div>
+
+              <div class="info_osteoporosis"></div>
+              
+              <div class="info_Hipogonadismo"></div>
+              
+            </div>
+             <div id="informa_mujer">
+                <div id="text_hipofisario">
+                  <h3>Macro adenoma hipofisario</h3>
+                  <ul>
+                    <li>Cefalea producida por la hipertensión endocraneana.</li>
+                    <li>Defectos visuales como consecuencia de una compresión del quiasma óptico.</li>
+                    <li>Compresión de pares craneanos: III, IV, V1, V2 y VI puede producir diplopía.</li>
+                  </ul>
+                </div>
+                <div id="text_galactorrea">
+                  <h3>Galactorrea</h3>
+                  <p>Por la acción lactotrópica de la prolactina.</p>
+                </div>
+                <div id="text_osteoporosis">
+                  <h3>Osteoporosis</h3>
+                  <p>Como consecuencia del hipogonadismo.</p>
+                </div>
+                <div id="text_Hipogonadismo">
+                  <h3>Hipogonadismo hipogonadotropico</h3>
+                  <ul>
+                    <li>Puede ser consecuencia tanto del exceso de prolactina como del efecto de un prolactinoma.</li>
+                    <li>Puede producir: Oligomenorrea, ciclos anovulatorios, infertilidad e hirsutismo.</li>
+                  </ul>
+                </div>
+
+             </div>
+            <div class="cuerpo_hombre">
+              <img src="imagenes/seccion2/seccion2_hombre-completo.png">
+              <div class="info_hipofisario2"></div>
+              
+              <div class="info_galactorrea2"></div>
+              
+              <div class="info_osteoporosis2"></div>
+              
+              <div class="info_Hipogonadismo2"></div>
+              
+            </div>
+            <div id="informa_hombre">
+                <div id="text_hipofisario2">
+                  <h3>Macro adenoma hipofisario</h3>
+                  <ul>
+                    <li>Cefalea producida por la hipertensión endocraneana.</li>
+                    <li>Defectos visuales como consecuencia de una compresión del quiasma óptico.</li>
+                    <li>Compresión de pares craneanos: III, IV, V1, V2 y VI puede producir diplopía.</li>
+                  </ul>
+                </div>
+                <div id="text_galactorrea2">
+                  <h3>Galactorrea</h3>
+                  <p>Por la acción lactotrópica de la prolactina.</p>
+                </div>
+                <div id="text_osteoporosis2">
+                  <h3>Osteoporosis</h3>
+                  <p>Como consecuencia del hipogonadismo.</p>
+                </div>
+                <div id="text_Hipogonadismo2">
+                  <h3>Hipogonadismo hipogonadotropico</h3>
+                  <ul>
+                    <li>Puede ser consecuencia tanto del exceso de prolactina como del efecto de un prolactinoma.</li>
+                    <li>Puede producir: Impotencia, disminución de la libido, infertilidad y ginecomastia.</li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="pausar">Sección 3: Medición e interpretación de los niveles de prolactina.</h3>
+        <div>
+          <p>Medición e interpretación de los niveles de prolactina: en esta sección se revisará la técnica con la cual se estiman los niveles de prolactina y sus posibles errores y limitaciones.</p>
+          <video width="400" height="225" src="http://media.udea.edu.co/videos/files/808-hiperprolactinemia.mp4" controls></video>
+        </div>
+        <h3 class="pausar">Sección 4: Tratamiento de la hiperprolactinemia.</h3>
+        <div>
+         <div class="mapa">
+             <section id="imagen1">
+                  <img class="estado_mapa" src="imagenes/seccion4/diapositiva-01.png" alt="">
+                  <div class="info info_macroprolactinemia"></div>
+                  <div class="info info_funcional"></div>
+                  <div class="info info_medicamentos"></div>
+                  <div class="info info_normal"></div>
+                  <div class="info info_organica"></div>
+                  <div class="info info_lesion"></div>
+                  <div id="icon_macroprolactinemia" class="icon mostrar icon_macroprolactinemia"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></div>
+                  <div id="icon_funcional" class="icon mostrar icon_funcional"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></div>
+                  <div id="icon_organica" class="icon mostrar icon_organica"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></div>
+                  <div id="icon_medicamentos" class="icon icon_medicamentos"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></div>
+                  <div id="icon_normal" class="icon icon_normal"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></div>
+                  <div id="icon_lesion" class="icon icon_lesion"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></div>
+                  
+              </section>
+              <section id="imagen2">
+                 <div class="atras" id="volver1"><img class="volver volver1" src="imagenes/seccion4/volver.png" alt="" title="Volver"></div>
+                  <img class="estado_mapa" src="imagenes/seccion4/Diapositiva-06.png" alt="">
+                  <div class="info info_tratamiento"></div>
+                  <div id="icon_tratamiento" class="icon mostrar icon_tratamiento"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></div>
+              </section>
+              <section id="imagen3">
+                  <div class="atras" id="volver2"><img class="volver volver2" src="imagenes/seccion4/volver.png" alt="" title="Volver"></div>
+                  <img class="estado_mapa" src="imagenes/seccion4/diapositiva-07.png" alt="">
+                  <div class="info info_agonistas"></div>
+                  <div id="icon_agonistas" class="icon mostrar icon_agonistas"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></div>
+              </section>
+              <section id="imagen4">
+                  <div class="atras" id="volver3"><img class="volver volver3" src="imagenes/seccion4/volver.png" alt="" title="Volver"></div>
+                  <img class="estado_mapa" src="imagenes/seccion4/diapositiva-09.png" alt="">
+                  <div class="info info_agonistas2"></div>
+                  <div id="icon_agonistas2" class="icon mostrar icon_agonistas2"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></div>
+              </section>
+          </div>
+        </div>
+        <h3 class="pausar">Sección 5: Poniendo en practica lo aprendido</h3>
+        <div class="esteno">
+          <p class="text_seccion5">Poniendo en practica lo aprendido: en esta sección, mediante casos clínicos, se repasarán los conceptos vistos en las secciones anteriores.</p>
+          <div class = "pit_tabs">
+            <ul>
+                <li><a href="#pit_tab_1">Caso 1</a></li>
+                <li><a href="#pit_tab_2">Caso 2</a></li>
+            </ul>
+            <div id = "pit_tab_1">
+              <h3>Patricia, 22 años.</h3>
+              <p><strong>Motivo de consulta:</strong> Desea quedar en embarazo.</p>
+              <ul>
+                <li>Comenta que hace aproximadamente un año dejo los anticonceptivos orales y desde ese momento no ha tenido menstruaciones. Antes del inicio de los anticonceptivos los ciclos menstruales eran irregulares y se caracterizaban por oligomenorrea. Desde hace aproximadamente 3 meses tiene galactorrea.</li>
+                <li>Patricia no tiene cefalea, disminución en la libido, cambios visuales o ningún otro tipo de síntoma.</li>
+                <li>No consume ningún medicamento.</li>
+                <li>Su examen físico es completamente normal excepto por la salida espontanea de una secreción blanca por sus pezones.</li>
+                <li>Tiene un valor de prolactina inicial de 171 ng/mL y una segunda medición de 163 ng/mL.</li>
+                <li>La prueba de embarazo es negativa y su valor de TSH es normal.</li>
+              </ul>
+              <div class = "pit_vertical_tabs">
+                <ul>
+                  <li><a href="#pit_tab_3">Pregunta 1</a></li>
+                  <li><a href="#pit_tab_4">Pregunta 2</a></li>
+                  <li><a href="#pit_tab_5">Pregunta 3</a></li>
+                  <li><a href="#pit_tab_6">Pregunta 4</a></li>
+                </ul>
+                <div id = "pit_tab_3">
+                  <p>¿Es muy probable que el cuadro clínico de Patricia se pueda explicar por una  macroprolactinemia?</p>
+                  <p class="opc_respuestas">Verdadero</p>
+                  <p class="opc_respuestas" id="r_falso">Falso</p>
+                  <div class="respuestas">
+                    <div id="respuesta_1">
+                      <img src="imagenes/img_respuesta1.png">
+                      <div id="text_respuesta1">
+                        <p>La macroprolactina es biológicamente inactiva, por lo tanto no debe producir síntomas.</p>
+                        <p>Algunos síntomas como la oligomenorrea son bastante inespecíficos, sin embargo, la galactorrea no es un síntoma usual.</p>
+                        <p>Sin embargo algunas personas consideran que SIEMPRE debería descartarse una macroprolactinemia en presencia de unos valores elevados de prolactina.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container demo-1">
+                    <ul class="grid cs-style-1">
+                      <figure class="figura_respuestas">
+                        <figcaption class="figcaption_respuestas ver_respuesta1">
+                          <h3 id="title_respuesta1">Ver respuesta</h3>
+                        </figcaption>
+                      </figure>
+                    </ul>
+                  </div>
+                </div>
+                <div id = "pit_tab_4">
+                  <p>¿la hiperprolactinemia de Patricia es mas probablemente orgánica o funcional?</p>
+                  <p class="opc_respuestas" id="r_organica">Orgánica</p>
+                  <p class="opc_respuestas">Funcional</p>
+                  <div class="respuestas">
+                    <div id="respuesta_2">
+                      <p>La paciente no se encuentra en tratamiento con ninguno medicamento que pueda alterar la secreción de prolactina.</p>
+                      <p>Tiene una prueba de embarazo negativa y una TSH normal lo cual descarta al embarazo y el hipotiroidismo como causas de la hiperprolactinemia.</p>
+                      <p>Nada en la historia clínica sugiere alguna otra causas de hiperprolactinemia funcional.</p>
+                      <p>Al ser una hiperprolactinemia orgánica se le solicito una resonancia magnética de silla turca.</p>
+                      <p>La resonancia magnética de silla turca reporta una lesión localizada en la porción central de la adenohipófisis de 12 mm en su diámetro mayor, no tiene extensión a los senos cavernosos y no esta en contacto con el quiasma óptico.</p>
+                      <p>Se le solicitan el resto de las hormonas del perfil hipofisario las cuales están normales.</p>
+                    </div>
+                  </div>
+                  <div class="container demo-1">
+                    <ul class="grid cs-style-1">
+                      <figure class="figura_respuestas">
+                        <figcaption class="figcaption_respuestas ver_respuesta2">
+                          <h3 id="title_respuesta1">Ver respuesta</h3>
+                        </figcaption>
+                      </figure>
+                    </ul>
+                  </div>
+                </div>
+                <div id = "pit_tab_5">
+                  <p>¿Cuál de las siguientes opciones de tratamiento cree que es la mejor para Patricia?</p>
+                  <div class="opc_respuestas2">
+                    <ul>
+                      <li>Seguimiento anual de los niveles de prolactina.</li>
+                      <li>Tratamiento con anticonceptivos orales.</li>
+                      <li>Remisión a neurocirujano experto en hipófisis.</li>
+                      <li id="r_agonistas">Tratamiento con agonistas dopaminergicos.</li>                
+                    </ul>
+                  </div>
+                  <div class="container demo-1">
+                    <ul class="grid cs-style-1">
+                      <figure class="figura_respuestas">
+                        <figcaption class="figcaption_respuestas ver_respuesta3">
+                          <h3 id="title_respuesta1">Ver respuesta</h3>
+                        </figcaption>
+                      </figure>
+                    </ul>
+                  </div>
+                </div>
+                <div id = "pit_tab_6">
+                  <p>¿Cual de los agonistas dopaminergicos disponibles seria el de elección para Patricia?</p>
+                  <div class="opc_respuestas2">
+                    <ul>
+                      <li id="r_bromocriptina">Bromocriptina.</li>
+                      <li>Cabergolina.</li>
+                      <li>Quinagolida.</li>
+                      <li>Pergolida.</li>                
+                    </ul>
+                  </div>
+                  <div class="container demo-1">
+                    <ul class="grid cs-style-1">
+                      <figure class="figura_respuestas">
+                        <figcaption class="figcaption_respuestas ver_respuesta4">
+                          <h3 id="title_respuesta1">Ver respuesta</h3>
+                        </figcaption>
+                      </figure>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id = "pit_tab_2">
+              <h3>Hernan, 36 años.</h3>
+              <p><strong>Motivo de consulta:</strong> Disfunción eréctil.</p>
+              <ul>
+                <li>Comenta que desde los 29 años aproximadamente tiene disminución en el deseo sexual, dificultades para mantener una erección, disminución subjetiva en el volumen del eyaculado.</li>
+                <li>Comenta que en los últimos dos años viene aumentando de peso y ha notado crecimiento de las mamas.</li>
+                <li>Consume inhibidores de la 5 fosfodiesterasa con regularidad con una eficacia variable, no consume otros medicamentos.</li>
+                <li>A su examen físico es llamativa la distribución de la grasa con una obesidad de predominio central y una ginecomastia de aproximadamente 5 cm bilateral, no hay secreción por los pezones, por lo demás es normal.</li>
+                <li>Trae una medición de prolactina en 2436 ng/mL, una TSH normal y una testosterona total en 170 ng/dL (Referencia 270 – 1070 ng/dL).</li>
+              </ul>
+              <div class = "pit_vertical_tabs">
+                <ul>
+                    <li><a href="#pit_tab_7">Pregunta 1</a></li>
+                    <li><a href="#pit_tab_8">Pregunta 2</a></li>
+                    <li><a href="#pit_tab_9">Pregunta 3</a></li>
+                    <li><a href="#pit_tab_10">Pregunta 4</a></li>
+                    <li><a href="#pit_tab_11">Pregunta 5</a></li>
+                </ul>
+                <div id = "pit_tab_7">
+                  <p>Dentro de los errores y limitaciones con la técnica de medición de la prolactina ¿Cuál es a el que deberíamos prestarle espacial atención en un caso como el de Hernan?</p>
+                  <div class="opc_respuestas2">
+                    <ul>
+                      <li>Macroprolactinemia.</li>
+                      <li id="r_gancho">Efecto gancho.</li>
+                      <li>Presencia de anticuerpos heterofilos.</li>               
+                    </ul>
+                  </div>
+                  <div class="respuestas">
+                    <div id="respuesta_1">
+                      <img src="imagenes/img_respuesta5.png">
+                      <div id="text_respuesta5">
+                        <p>El efecto gancho causado por niveles extremadamente elevados de prolactina en suero.</p>
+                        <p>Esto produce saturación simultánea de los anticuerpos de captura y detección.</p>
+                        <p>No se forma el sánduche y por lo tanto se subestima de manera importante el valor de la prolactina.</p>
+                        <p>El suero de Hernan debe ser analizado puro y después de una dilución cuantiosa (1:100 – 1:1000).</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container demo-1">
+                    <ul class="grid cs-style-1">
+                      <figure class="figura_respuestas">
+                        <figcaption class="figcaption_respuestas ver_respuesta5">
+                          <h3 id="title_respuesta1">Ver respuesta</h3>
+                        </figcaption>
+                      </figure>
+                    </ul>
+                  </div>
+                </div>
+                <div id = "pit_tab_8">
+                  <p>¿la hiperprolactinemia de Hernan es mas probablemente orgánica o funcional?</p>
+                  <p class="opc_respuestas" id="r_organica2">organica</p>
+                  <p class="opc_respuestas">funcional</p>
+                  <div class="respuestas">
+                    <div id="respuesta_1">
+                      <p>Los inhibidores de la 5 fosfodiesterasa no están entre los medicamentos asociados a alteraciones en al liberación de prolactina.</p>
+                      <p>Usualmente las hiperprolactinemias funcionales no cursan con valores tan elevados de prolactina.</p>
+                      <p>Al ser una hiperprolactinemia orgánica se le solicito una resonancia magnética de silla turca.</p>
+                      <p>La resonancia magnética de silla turca reporta una lesión selar con extensión supraselar en contacto con el quiasma óptico sin comprimirlo ni desplazarlo e invasión a ambos senos cavernosos, en su diámetro mayor mite 27mm.</p>
+                      <p>Se le solicitan el resto de las hormonas del perfil hipofisario y se confirma un hipogonadismo hipogondotropico, el resto del perfil es normal.</p>
+                    </div>
+                  </div>
+                  <div class="container demo-1">
+                    <ul class="grid cs-style-1">
+                      <figure class="figura_respuestas">
+                        <figcaption class="figcaption_respuestas ver_respuesta6">
+                          <h3 id="title_respuesta1">Ver respuesta</h3>
+                        </figcaption>
+                      </figure>
+                    </ul>
+                  </div>
+                </div>
+                <div id = "pit_tab_9">
+                  <p>¿Podría la hiperprolactinemia asociada al macroprolactinoma explicar todos los síntomas de Hernan?</p>
+                  <p class="opc_respuestas" id="r_verdadero2">Verdadero</p>
+                  <p class="opc_respuestas">Falso</p>
+                  <div class="container demo-1">
+                    <ul class="grid cs-style-1">
+                      <figure class="figura_respuestas">
+                        <figcaption class="figcaption_respuestas ver_respuesta7">
+                          <h3 id="title_respuesta1">Ver respuesta</h3>
+                        </figcaption>
+                      </figure>
+                    </ul>
+                  </div>
+                </div>
+                <div id = "pit_tab_10">
+                  <p>¿Cuál de las siguientes opciones de tratamiento cree que es la mejor para Hernan?</p>
+                  <div class="opc_respuestas2">
+                    <ul>
+                      <li>Seguimiento anual de los niveles de prolactina.</li>
+                      <li>Remisión a neurocirujano experto en hipófisis.</li>
+                      <li>Quinagolida.</li>
+                      <li id="r_agonistas2">Tratamiento con agonistas dopaminergicos.</li>                
+                    </ul>
+                  </div>
+                  <div class="container demo-1">
+                    <ul class="grid cs-style-1">
+                      <figure class="figura_respuestas">
+                        <figcaption class="figcaption_respuestas ver_respuesta8">
+                          <h3 id="title_respuesta1">Ver respuesta</h3>
+                        </figcaption>
+                      </figure>
+                    </ul>
+                  </div>
+                </div>
+                <div id = "pit_tab_11">
+                  <p>¿Cual de los agonistas dopaminergicos disponibles seria el de elección para Hernan?</p>
+                  <div class="opc_respuestas2">
+                    <ul>
+                      <li>Bromocriptina.</li>
+                      <li id="r_cabergolina">Cabergolina.</li>
+                      <li>Quinagolida.</li>
+                      <li>Pergolida.</li>                
+                    </ul>
+                  </div>
+                  <div class="respuestas">
+                    <div id="respuesta_1">
+                      <p>La cabergolina es mucho mejor tolerada que la bromocriptina y pudiera ser un poco mas efectiva. La quinagolida y pergolida se reservan para casos de resistencia y no están disponibles en Colombia.</p>
+                    </div>
+                  </div>
+                  <div class="container demo-1">
+                    <ul class="grid cs-style-1">
+                      <figure class="figura_respuestas">
+                        <figcaption class="figcaption_respuestas ver_respuesta9">
+                          <h3 id="title_respuesta1">Ver respuesta</h3>
+                        </figcaption>
+                      </figure>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dialog" id="dialog1" title="Bibliografia">
+      <ul>
+          <li>Capozzi, A., Scambia, G., Pontecorvi, A., & Lello, S. (2015). Hyperprolactinemia: pathophysiology and therapeutic approach. Gynecol Endocrinol, 31(7), 506-510. doi:10.3109/09513590.2015.1017810</li>
+          <li>Faje, A., & Nachtigall, L. (2013). Current treatment options for hyperprolactinemia. Expert Opin Pharmacother, 14(12), 1611-1625. doi:10.1517/14656566.2013.806488</li>
+          <li>Glezer, A., & Bronstein, M. D. (2012). Approach to the patient with persistent hyperprolactinemia and negative sellar imaging. J Clin Endocrinol Metab, 97(7), 2211-2216. doi:10.1210/jc.2011-2976</li>
+          <li>Glezer, A., & Bronstein, M. D. (2015). Prolactinomas. Endocrinol Metab Clin North Am, 44(1), 71-78. doi:10.1016/j.ecl.2014.11.003</li>
+          <li>Halperin Rabinovich, I., Camara Gomez, R., Garcia Mouriz, M., & Ollero Garcia-Agullo, D. (2013). Clinical guidelines for diagnosis and treatment of prolactinoma and hyperprolactinemia. Endocrinol Nutr, 60(6), 308-319. doi:10.1016/j.endonu.2012.11.005</li>
+          <li>Melmed, S., Casanueva, F. F., Hoffman, A. R., Kleinberg, D. L., Montori, V. M., Schlechte, J. A., & Wass, J. A. (2011). Diagnosis and treatment of hyperprolactinemia: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab, 96(2), 273-288. doi:10.1210/jc.2010-1692</li>
+          <li>Vilar, L., Fleseriu, M., & Bronstein, M. D. (2014). Challenges and pitfalls in the diagnosis of hyperprolactinemia. Arq Bras Endocrinol Metabol, 58(1), 9-22.  Retrieved from http://dx.doi.org/</li>
+      </ul>
+    </div>
+    <div class="dialog" id="dialog2" title="Créditos">
+      <p>Esta obra esta licenciada bajo Creative Commons Atribución – No comercial.  Esta licencia permite a otros distribuir, remezclar, retocar, y crear a partir de tu obra de manera no comercial y, a pesar de que sus nuevas obras deben siempre mencionarte y mantenerse sin fines comerciales, no están obligados a licenciar sus obras derivadas bajo las mismas condiciones.</p>
+      <div class="acreditados">
+        <div class="creditos_left">
+          <ul>
+            <li><strong>Experto temático</strong><br>Carlos Builes</li><br>
+            <li><strong>Asesoría pedagógica</strong><br>Ángela Valderrama Muñoz</li><br>
+            <li><strong>Producción multimedial</strong><br>David Castaño Luján</li><br>
+            <li><strong>Edición de animación</strong><br>Oscar Rojo Gaviria</li><br>
+          </ul>
+        </div>
+        <div class="creditos_right">
+          <ul>
+            <li><strong>Diseño Gráfico</strong><br>David Castaño Luján</li><br>
+            <li><strong>Corrección de estilo</strong><br>Laura Bedoya Garcés</li><br>
+            <li><strong>Integración de contenidos</strong><br>Esteban Buitrago Sánchez</li>
+          </ul>
+        </div>
+      </div>
+      <div class="imagen_creditos">
+        <img src="imagenes/imagen_creditos.png">
+      </div>
+      <div class="footer_creditos">
+        <p style="text-align:center;">Programa Integración de Tecnologías a la Docencia <br><strong>Coordinadora</strong><br>Donna Zapata Zapata<br><br>Vicerrectoría de Docencia<br>Medellín-Colombia
+        <br>Universidad de Antioquia<br>2016</p>
+      </div>
+    </div>
+    <div class="dialog_dopamina" id="dialog3" title="Principales factores implicados en la producción y secreción de la prolactina">
+      <div class="conf_dopamina">
+        <img id="imagen_dopamina" src="imagenes/dopamina/grafico_completo.png">
+        <div class="info_dopamina"></div>
+        <div id="text_dopamina">
+          <ul>
+            <li>Es secretada por las neuronas tuberoinfundibulares del hipotálamo.</li>
+            <li>Es el principal regulador inhibitorio de la secreción de prolactina.</li>
+            <li>Su sitio de acción es el receptor D<sub>2</sub>, localizado en la superficie de la célula lactotropa.</li>
+          </ul>
+        </div>
+        <div class="info_prolactina"></div>
+        <div id="text_prolactina">
+          <ul>
+            <li>Ejerce un efecto inhibitorio sobre su liberación al estimular la producción de dopamina.</li>
+            <li>Posiblemente tenga un efecto inhibitorio sobre las células lactotropas.</li>
+          </ul>
+        </div>
+        <div class="info_estrogenos"></div>
+        <div id="text_estrogenos">
+          <ul>
+            <li>Uno de los factores principales, estimulantes de la secreción de prolactina.</li>
+          </ul>
+        </div>
+        <div class="info_trh"></div>
+        <div id="text_trh">
+          <ul>
+            <li>Uno de los factores principales, estimulantes de la secreción de prolactina.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="dialog_dopamina" id="dialog4" title="Papel de la prolactina en la adaptación materna a la gestación">
+      <img id="imagen_gestacion" src="imagenes/infografia_2.png">
+    </div>
+    <div class="dialog_causas" id="dialog5" title="Causas de la Hiperprolactinemia">
+      <div>
+        <h2>¿Qué es la hiperprolactinemia?</h2>
+        <p>El termino hiperprolactinemia se refiere al exceso en los niveles circulantes de prolactina y puede tener varias causas, unas funcionales y otras orgánicas.</p>
+        <div id="texto_causas">
+          <div class="botones_causas">
+            <div id="boton1">Hiperprolactinemia funcional</div>
+            <div id="boton2">Hiperprolactinemia orgánica</div>
+          </div>
+          <div class="textos_botones">
+            <div id="text_boton1">
+              <ol>
+                <li>Medicamentos que alteran la secreción de dopamina (antipsicóticos, antihipertensivos, antidepresivos, antieméticos, opiáceos, estrógenos, cocaína entre otros).</li>
+                <li>Embarazo.</li>
+                <li>Síndrome de ovario poli quístico.</li>
+                <li>Falla renal.</li>
+                <li>Cirrosis hepática.</li>
+                <li>Cáncer de riñón y pulmón.</li>
+                <li>Endocrinopatías: Hipotiroidismo primario, insuficiencia adrenal primaria.</li>
+                <li>Estrés físico.</li>
+              </ol>
+            </div>
+            <div id="text_boton2">
+              <ol>
+                <li>Tumores pituitarios productores de prolactina (prolactinoma).</li>
+                <li>Tumores pituitarios plurihormonales.</li>
+                <li>Efecto de compresión del tallo hipofisario (macroadenomas hipofisarios, craneofaringiomas, meningiomas, alteraciones vasculares, metástasis).</li>
+                <li>Enfermedades infiltrativas - inflamatorias (sarcoidosis, tuberculosis, hipofisitis).</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div id="imagen_causas"><img src="imagenes/infografia_1.png"></div>
+      </div>
+    </div>
+    <div class="dialog" id="dialog6" title="Epidemiología de la Hiperprolactinemia">
+      <img src="imagenes/epidemiologia.png">
+    </div>
+    <div class="dialog_medicamentos" id="dialog7" title="Medicamentos">
+      <img id="imagen_medicamentos" src="imagenes/seccion4/diapositiva-04.png">
+    </div>
+    <div class="dialog_agonistas" id="dialog8" title="Agonistas">
+      <img id="imagen_medicamentos" src="imagenes/seccion4/diapositiva-08.png">
+    </div>
+    <footer>
+        <div id="pie">
+            <p>Programa integración de tecnologías a la Docencia<br>Viderrectoria de Docencia<br>Universidad de Antioquia</p>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
